@@ -336,7 +336,7 @@ def plot_full_scatterplot_with_parameters(data, A, B, variance, x_bounds=[15, 40
     #exp_yd = np.exp(yd)
     mean_yd = [y + variance/2 for y in yd]
     
-    meanaprint = str(round(A+variance, 2))
+    meanaprint = str(round(A+variance/2, 2))
     aprint = str(round(A, 1))
     bprint = str(round(B, 2))
     varprint = str(round(variance, 2))
